@@ -71,19 +71,19 @@ if __name__ == "__main__":
     print('-------------------------------')
     origin = input(
         dedent("""
-      From where will you be traveling from?
+        From where will you be traveling from?
     """))
     cities = input(
         dedent("""
-      What are the cities options you are interested in visiting?
+        What are the cities options you are interested in visiting?
     """))
     date_range = input(
         dedent("""
-      What is the date range you are interested in traveling?
+        What is the date range you are interested in traveling?
     """))
     interests = input(
         dedent("""
-      What are some of your high level interests and hobbies?
+        What are some of your high level interests and hobbies?
     """))
 
     trip_crew = TripCrew(origin, cities, date_range, interests)
